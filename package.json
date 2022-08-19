@@ -1,0 +1,27 @@
+{
+  "name": "babylonplayground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify ./src/app.js -o ./public/index.js",
+    "watch": "watchify ./src/app.js -o ./public/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxWheal/BabylonPlayground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxWheal/BabylonPlayground/issues"
+  },
+  "homepage": "https://github.com/MaxWheal/BabylonPlayground#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "watchify": "^4.0.0"
+  },
+  "dependencies": {
+    "babylonjs": "^5.20.0"
+  }
+}
