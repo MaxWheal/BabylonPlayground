@@ -22,6 +22,7 @@
     "watchify": "^4.0.0"
   },
   "dependencies": {
-    "babylonjs": "^5.20.0"
+    "babylonjs": "^5.20.0",
+    "earcut": "^2.2.4"
   }
 }
